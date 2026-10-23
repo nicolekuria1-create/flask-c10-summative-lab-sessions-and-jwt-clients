@@ -21,6 +21,11 @@ This project is a secure Flask REST API for a productivity Notes app. It impleme
 - Marshmallow
 - SQLite (default)
 
+## Python Version Note
+- This project is pinned for Python 3.8.x in `Pipfile`.
+- Run installs and tests with Python 3.8.x to avoid compatibility issues with older pinned package versions.
+- If your machine has multiple Python versions, create the env with Python 3.8 before running `pipenv install`.
+
 ## Installation
 1. Clone the repo and open it in VS Code.
 2. Install dependencies:
